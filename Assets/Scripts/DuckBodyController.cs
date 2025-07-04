@@ -61,6 +61,7 @@ public class DuckBodyController : MonoBehaviour
 
         // 실제 회전 적용
         body.rotation = Quaternion.Euler(0, 0, displayBodyAngle);
+        
     }
 
 
